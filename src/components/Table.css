@@ -1,0 +1,50 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80vw;
+  align-items: center;
+  height: 90vh;
+  justify-content: center;
+}
+
+table {
+  color: white;
+  background-color: #acaacc;
+  box-shadow: 10px 10px 10px rgba(13, 1, 1, 0.1);
+
+}
+
+
+.btnContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+
+.setIdDel {
+  width: 10vw;
+}
+
+.setName {
+  display: block;
+  max-width: 25vw;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  height: 100%;
+}
+.setName::-webkit-scrollbar {
+  display: none;
+}
+
+.tableMain {
+  display: flex;
+  overflow: hidden;
+  width: 50vw;
+  align-items: center;
+
+}
+.pagination{
+  margin-top:1rem;
+}

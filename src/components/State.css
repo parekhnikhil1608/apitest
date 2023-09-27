@@ -1,0 +1,32 @@
+.myform{
+    display: flex;
+    flex-direction: column;
+    width: 75vh;
+    background-color: #acaacc;
+    border-radius: 10px;
+    padding: 50px 140px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(13, 1, 1, 0.1);
+    border: 2px solid #8c6f9d;
+
+
+}
+.myform select {
+    border-radius: 5px;
+    padding: 8px;
+}
+.myform input {
+    padding: 5px;
+    border: 0px solid white;
+    border-radius: 5px;
+}
+.formMain{
+    display: flex;
+    height: 88vh;
+    align-items: center;
+
+}
+.alertBox{
+    height: 2vh;
+}

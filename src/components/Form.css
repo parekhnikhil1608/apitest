@@ -1,0 +1,31 @@
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 150px;
+    margin: 9% 30%;
+    background-color: #acaacc;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(13, 1, 1, 0.1);
+    border: 2px solid #8c6f9d;
+
+}
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #cf2a2a;
+    border-radius: 10px;
+    margin: 60px;
+}
+.mainForm input{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.radioGroup{
+    display: flex;
+    align-items: first baseline;
+}

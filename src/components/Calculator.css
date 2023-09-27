@@ -1,0 +1,46 @@
+.mainCal {
+    border: 10px solid grey;
+    width: calc(fit-content + 3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.mainDiv {
+    height: 80vh;
+    width: 80vw;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.buttons button {
+    color: white;
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+}
+
+.calDisplay {
+    margin: 3px;
+    width: 220px;
+    height: 45px;
+    border: 2px solid gray;
+    padding-left: 10px;
+}
+
+input {
+    direction: ltr;
+
+}
+
+body {
+    cursor: rgb(27, 27, 20) 5 5, auto;
+    /* Replace 'your-cursor-image.png' with the actual image URL */
+}
+
